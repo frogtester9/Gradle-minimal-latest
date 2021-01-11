@@ -28,7 +28,7 @@ steps:
     artifactoryResolverService: 'bandi-cloud'
     sourceRepo: 'libs-release'
     artifactoryDeployerService: 'bandi-cloud'
-    targetRepo: 'libs-release'
+    targetRepo: 'libs-release-local'
     usesPlugin: true
     useWrapper: true
     collectBuildInfo: true
