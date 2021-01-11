@@ -26,9 +26,9 @@ steps:
     gradleBuildFile: 'build.gradle'
     tasks: 'artifactoryPublish'
     artifactoryResolverService: 'bandi-cloud'
-    sourceRepo: 'libs-release'
+    sourceRepo: 'caf_java_virtual'
     artifactoryDeployerService: 'bandi-cloud'
-    targetRepo: 'libs-release-local'
+    targetRepo: 'test-maven-local'
     usesPlugin: true
     useWrapper: true
     collectBuildInfo: true
