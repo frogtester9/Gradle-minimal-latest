@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+  export VSTS_AGENT_HTTPTRACE=true
 
 steps:
 - task: Gradle@2
